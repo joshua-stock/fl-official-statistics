@@ -1,6 +1,13 @@
 # Federated Learning for distributed databases
 
-This repository is divided into three main parts. These can be found in the top folders.
+This repository is divided into three main parts. These can be found in the top folders. Note that for the LTE simulations, the data set is private and only a dummy data set is included in this repository.
+
+### Medical insurance data
+
+Everything concerning the medical insurance data is stored here. This dataset is used to calculate charges a person has to pay and contains data as age, sex, BMI, smoker, number of children and region.
+* data: The medical insurance data
+* med_insurance.ipynb: Some general data processing steps and a centralised model for medical insurance charge prediction
+* med_insurance_federated.ipynb: The federated model for medical insurance charge prediction
 
 ### PM2.5 prediction for Beijing
 
@@ -24,12 +31,5 @@ This folder contains everything related to Umlaut and their data. As the origina
 * lte_federated.ipynb: The federated model for the LTE data and centralised models for comparison reasons
 * lte_hyperparametersearch.ipynb: A hyperparametersearch for different models
 * umlaut_lte.py: A python module containing some functions used by the notebooks
-
-### Medical insurance data
-
-Everything concerning the medical insurance data is stored here. This dataset is used to calculate charges a person has to pay and contains data as age, sex, BMI, smoker, number of children and region.
-* data: The medical insurance data
-* med_insurance.ipynb: Some general data processing steps and a centralised model for medical insurance charge prediction
-* med_insurance_federated.ipynb: The federated model for medical insurance charge prediction
 
 
